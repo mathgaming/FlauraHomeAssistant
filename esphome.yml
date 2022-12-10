@@ -60,7 +60,7 @@ output:
     id: power_moisture_sensor
 
   - platform: gpio
-    pin: GPIO21
+    pin: GPIO23
     id: power_pump
 
   - platform: gpio
@@ -231,4 +231,4 @@ script:
       - deep_sleep.enter: 
           #until: ${sleep_until}
           #time_id: ha_time
-          sleep_duration: 1min # for test only
+          sleep_duration: 10s # for test only
