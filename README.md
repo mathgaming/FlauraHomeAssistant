@@ -7,8 +7,8 @@ I started this project at the end of May 2022 and have worked on it a bit on and
 Then I saw the following thread and decided to publish my progress in case someone could use what I have made:  \
 https://community.home-assistant.io/t/invitation-project-suggestion-an-automated-potted-plant/  \
 Martin Vinter made the thread and put his design files here: https://github.com/MartinVinter/Flaura2 \
-My version is currently 95% working. I have tested the software and works without deep sleep.
-After adding deep sleep the pump control fails. It works around 80% of the time and for the remaining 20% it does not turn off the pump before it goes to sleep.
+The software seems to be working, but I haven't tested it long term.\
+I am working on a complete redesign of the pot itself, which will require less silicone to make watertight
 
 ## Parts
 I bought everything on AliExpress because they have the option to combine all items in one big package when shipped to the EU. (Tired of asking for sellers to resend small items that got lost in shipping) \
